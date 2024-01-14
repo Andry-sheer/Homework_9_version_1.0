@@ -665,7 +665,17 @@ height: 22px;
 }
 /**************************************************/
 
+/***************** FOOTER ***********************************************/
+.footer {
+  background: black;
+  color: #F2F2F2;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Tektur', sans-serif;
+}
 
+/******************************************************/
 
 .header-container {
 	width: 1200px;
