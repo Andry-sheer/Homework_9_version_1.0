@@ -1,0 +1,736 @@
+@import url("reset.css");
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/************************************************/
+
+/***********************AMELIA*****************************/
+.containerAM {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+.headerAM {
+  background: #81a36b;
+}
+
+.header-containerAM {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heder-logoAM {
+  padding: 19px 0;
+}
+
+.header-listAM {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 25px 0;
+  line-height: 29px;
+}
+
+.header-listAM a {
+  color: #161616;
+  text-decoration: none;
+}
+
+.section-1AM {
+  background: #d8d8d6;
+  margin: 0 auto;
+  flex-shrink: 0;
+  /*outline: 2px solid red;*/
+}
+
+.section-in1AM {
+  margin: 0 auto;
+  width: 1140px;
+  padding: 0 0 0 15px;
+}
+
+.section-in2AM {
+  display: flex;
+}
+
+.img-sect-1AM {
+  width: 540px;
+  height: 670px;
+  flex-shrink: 0;
+  /*outline: 1px solid red;*/
+}
+
+.Amelia {
+  font-family: "Architects Daughter";
+  font-weight: 400;
+  font-size: 62px;
+  padding: 174px 0 41px 0;
+}
+
+.lorm-1AM {
+  padding: 0 30px 20px 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 164%;
+}
+
+.sect-1AM {
+  width: 570px;
+  height: 670px;
+  flex-shrink: 0;
+  /*outline: 1px solid rgb(55, 0, 255);*/
+}
+
+.btsAM {
+  display: flex;
+  gap: 25px;
+}
+
+.bt1AM {
+  width: 197px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #81a36b;
+  border-radius: 6px;
+  text-align: center;
+  padding: 18px 34px 21px;
+}
+.bt1AM {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.bt2AM {
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px solid #81a36b;
+  border-radius: 6px;
+  padding: 18px 34px 21px;
+  text-align: start;
+}
+.bt2AM {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-2AM {
+  background: #d8d8d6;
+  margin: 0 auto;
+  flex-shrink: 0;
+  padding: 120px 0 120px 0;
+  /*outline: 2px solid red;*/
+}
+
+.sect-2AM {
+  width: 540px;
+  height: 196px;
+  margin: 0 auto;
+  /*outline: 2px solid red;*/
+}
+
+.AboutAM {
+  font-size: 32px;
+  font-weight: 400;
+  color: #161616;
+  font-family: "Architects Daughter";
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.lorm-cont-2AM {
+  height: 112px;
+  color: #161616;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 164%;
+  /*outline: 2px solid red;*/
+}
+
+.section-3AM {
+  background: #81a36b;
+}
+
+.sect-3AM {
+  /*outline: 2px solid red;*/
+  margin: 0 auto;
+  padding: 78px 0 78px 0;
+}
+
+.boxAM {
+  display: flex;
+  width: 1110px;
+  height: 126px;
+  /*outline: 2px solid red;*/
+  margin: 0 auto;
+  gap: 90px;
+  justify-content: space-between;
+}
+
+.boxAM > div {
+  text-align: center;
+  height: 126px;
+  /*outline: 1px solid red;*/
+}
+
+.boxAM > div > div {
+  height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+  padding-top: 25px;
+}
+
+.boxAM > div > div {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img1AM {
+  width: 139px;
+}
+
+.img2AM {
+  width: 178px;
+}
+.text2AM {
+  height: 22px;
+  text-align: center;
+}
+
+
+.img3AM {
+  width: 115px;
+}
+.text3AM {
+  height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+
+.img4AM {
+  width: 185px;
+}
+.text4AM {
+height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+
+.img5AM {
+  width: 129px;
+}
+.text5AM {
+height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+.section-4AM {
+  background: #D8D8D6;
+}
+
+.sect-4AM {
+  width: 1109px;
+  margin: 0 auto;
+}
+
+.sect-4-1AM {
+  display: flex;
+  gap: 30px;
+  padding: 120px 0 ;
+}
+
+.img-sect4AM {
+  width: 539px;
+  height: 560px;
+}
+
+.sect-4-textAM {
+  width: 539px;
+  height: 560px;
+  padding: 180px 0 179px 0;
+}
+
+.howAM {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+  width: 539px;
+  height: 38px;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.HlormAM {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  width: 539px;
+  height: 112px;
+  line-height: 164%;
+  text-align: justify;
+}
+
+.section-5AM {
+  background: #D8D8D6;
+}
+
+.sect-5-contAM {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 0 120px 0;
+}
+
+.ourWorksAM  {
+  width: 403px;
+  height: 38px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+}
+
+.cardsAM {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.card-1AM {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+.card-1-imgAM {
+  border-radius: 6px;
+}
+.tex-1AM {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.card-2AM {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+
+.tex-2AM {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.card-3AM {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+.card-3-imgAM {
+  border-radius: 6px;
+}
+.tex-3AM {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.footerAM {
+  /*  outline: 1px solid red; */
+  background: #81A36B;
+}
+
+.AMF {
+  padding: 50px 0 25px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+}
+
+.ContactsAM {
+  text-align: center;
+  font: 24px/39px "Roboto";
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.num-1AM {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.num-2AM {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.adressAM {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.FooterImgAM {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.year2023AM {
+  text-align: center;
+  font: 16px "Roboto";
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+/***************************************************/
+
+
+/******************* WISDOM ************************************/
+.containerW {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+
+  .container1W {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+  
+  .titleW {
+    font-family: 'Fredericka the Great', serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2F2F2;
+  }
+  
+  .AboutW {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F2F2F2;
+  }
+  
+  .subtitleW {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 24px 25px 24px 25px ;
+    color: #F2F2F2;
+  }
+  
+  .paragraphW {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 25px 24px 25px;
+    color: #F2F2F2;
+  }
+  
+  .headerW {
+    background: #253F97;
+    padding: 35px 0;
+  }
+  
+  .header-containerW{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-listW {
+  display: flex;
+  gap: 20px;
+  }
+  
+  .header-listW a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  /*font-weight: 700;*/
+  font-weight: 400;
+  color: #F2F2F2;
+  }
+  
+  .main-sectionW {
+    background: #2E2E2E;
+  }
+  
+  .main-section-blockW {
+    min-height: 470px;
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .main-section2W {
+    background: #424242;
+  }
+  
+  .container-section2W {
+    min-height: 470px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+  .container2W {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 90px 15px  ;
+    }
+  
+  
+  .cr-blocksW {
+    display: flex;
+    padding: 45px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .cr-block1W {
+    width: 555px;
+    height: 375px;
+    border-radius: 8px 0px 0px 8px;
+    background: #212121;
+    flex-shrink: 0;
+  }
+  
+  .cr-block2W {
+    width: 555px;
+    height: 375px;
+    flex-shrink: 0;
+    border-radius: 8px 0px 0px 8px;
+  }
+  
+  .main-section3W {
+    background: #2E2E2E;
+  }
+  
+  .FeatureW {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+  }
+  
+  .main-section-block3W {
+    min-height: 470px;
+    max-width: 1440px;
+  flex-shrink: 0;
+  }
+  
+  .container3W {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 90px 15px;
+  } 
+  
+  .cr-blocks2W {
+    display: flex;
+    padding: 45px 0 0 0;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .cardcont_1W {
+    width: 350px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #424242;
+    padding: 24px 26px 0 ;
+  }
+  
+  .cardcont_2W {
+    width: 350px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #424242;
+    padding: 24px 26px 0 ;
+  }
+  
+  .cardcont_3W {
+    padding: 24px 26px 0 ;
+    width: 350px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #424242;
+  }
+  
+  .card_titleW {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px 0 23px 0 ;
+    color: #F2F2F2;
+  }
+  
+  .paragraph2W {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    color: #F2F2F2;
+  }
+  
+  .adressW > a {
+    color: #FF7E20;
+    
+  }
+  .adressW {
+    padding-bottom: 23px;
+  }
+  
+  .footer_containerW {
+    background: #253F97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .adress_footerW {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .adress_footerW > a {
+    color: #F2F2F2;
+  }
+  
+  .footer-icoW {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 24px 0 29px ;
+  }
+/*************************************************************/
+
+
+/********** CONTAINER ****************************/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+/**************************************************/
+
+
+
+.header-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+  background: black;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+
+.list li {
+  position: relative;
+}
+
+.list li:hover ul {
+  display: block;
+}
+
+.list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgba(128, 0, 128);
+  padding: 10px 25px;
+  display: block;
+  border-radius: 10px;
+  color: #000000;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Tektur', sans-serif;
+  font-size: 30px;
+}
+
+.list ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+  padding-top: 20px;
+
+}
+
+.list ul a {
+  background: rgba(128, 0, 128, 0.8);
+  border: 3px solid #000000;
+}
+
+.list li a:hover {
+  background: yellowgreen;
+}
+
+.BG-FONE {
+  background: url(/images/Arcane.jpg);
+  height: 1080px;
+  width: 1903px;
+}
+
+
+
